@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_backgroud"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soal 1/n"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:id="@+id/noSoal"/>
+
+        <TextView
+            android:id="@+id/nilai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai: 0"
+            android:layout_below="@+id/noSoal"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/waktu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:20"
+            android:layout_alignParentEnd="true"
+            android:textSize="37sp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/pertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan disini"
+            android:textStyle="bold"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pertanyaan"
+            android:layout_marginTop="80dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 1"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+            <RadioButton
+                android:id="@+id/rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 2"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+            <RadioButton
+                android:id="@+id/rb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 3"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"/>
+            <RadioButton
+                android:id="@+id/rb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan 4"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup"
+            android:text="Submit"
+            android:background="@drawable/button"
+            android:textColor="@color/white"
+            android:paddingHorizontal="10dp"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_id_soal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_soal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pilihan_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pilihan_2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pilihan_3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_pilihan_4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_jawaban"/>
+
+
+</LinearLayout>

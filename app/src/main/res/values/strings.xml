@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">QuizBox</string>
+
+    <string name="sign_hello">SELAMAT DATANG, </string>
+    <string name="sign_welcome">DI PORTAL QUIZ UBP</string>
+    <string name="signin_hint">Login Untuk Melanjutkan</string>
+    <string name="New_User">Belum punya akun? Daftar disini!</string>
+    <string name="Already_user">Sudah punya akun? Silahkan Login</string>
+
+    <string name="matkul">Mata Kuliah</string>
+    <string name="m_heading">Pengolahan Citra Digital Quiz</string>
+    <string name="an_heading">Mobile Programming Quiz</string>
+    <string name="his_heading">Pemrogaman Web Quiz</string>
+    <string name="mult_heading">Perancangan Basis Data Quiz</string>
+    <string name="allknow_heading">Rekayasa Perangkat Lunak Quiz</string>
+    <string name="signin">Login</string>
+    <string name="start_btn">START</string>
+    <string name="signup">Daftar</string>
+
+    <string name="successfull">Kamu telah menyelesaikan quiz!</string>
+    <string name="try_agin">Coba lagi lain waktu!</string>
+    <string name="genius">Genius!</string>
+    <string name="sad">Kurang belajar?</string>
+    <string name="crying_message">Kamu belum siap untuk quiz berikutnya. Coba lagi!</string>
+
+    <!-- CHANGE ADMOB STRINGS HERE-->
+    <string name="admob_id">ca-app-pub-1707622920686833~8927173533</string>
+    <string name="inter_id">ca-app-pub-1707622920686833/5981430084</string>
+    <string name="banner_id">ca-app-pub-1707622920686833/2969088081</string>
+
+    <string name="about_learn">Belajar dengan Fun dengan :</string>
+    <string name="app_Name">QuizBox</string>
+    <string name="App_Version">Version 1.0.0</string>
+    <string name="invite_friends">Undang Teman</string>
+    <string name="enter_your_email">Masukkan Email Untuk Menerima</string>
+    <string name="verification_code">Kode Verifikasi</string>
+    <string name="email">Email</string>
+    <string name="categories">Mata Kuliah</string>
+    <string name="welcome">REGISTRASI</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_the_quizbox">Universitas Buana</string>
+    <string name="welcome_to_the_quizbox2">Perjuangan Karawang</string>
+    <string name="teknik_informatika">Teknik Informatika</string>
+    <string name="press_start_to_continue">Klik MASUK untuk melanjutkan</string>
+    <string name="start">Masuk</string>
+    <string name="password_hint">Password</string>
+    <string name="user_info">Info Pengguna</string>
+    <string name="don_t_cry">Belajar lagi yuk!</string>
+    <string name="twenty_score">20% Score</string>
+    <string name="quiz">Quiz</string>
+    <string name="box">Box</string>
+    <string name="learn_and_upgrade">Belajar dan Tingkatkan</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="choose_your_preferred_level">Pilih quiz</string>
+    <string name="forgot_password">Lupa Password?</string>
+    <string name="fifty_score" tools:ignore="StringFormatInvalid">50% Score</string>
+    <string name="congrats">Selamat!</string>
+    <string name="seventy_score">70% Score</string>
+    <string name="next_level">Quiz Selanjutnya</string>
+    <string name="hundred_score">100% Score</string>
+    <string name="question_number_countdown">1/10</string>
+    <string name="share_question">Bagikan Pertanyaan</string>
+    <string name="next">Selanjutnya</string>
+    <string name="todo">QuizBox Image</string>
+
+    <string name="tata_tertib">1. Peserta dilarang untuk saling berhubungan; pesan singkat, kode atau tanda-tanda lain dengan sesama peserta ujian pada Google Classroom, Whatsapp (Group Kelas).<br/><br/>\n\n
+        2. Peserta ujian dapat mengajukan pertanyaan kepada dosen pengawas hanya mengenai redaksi dan teks ujian.<br/><br/>\n\n
+        3. Apabila selama pelaksanaan ujian berlangsung terjadi hal-hal teknis seperti : perangkat ujian tidak terhubung dengan sistem Ujian atau perangkat ujian mati, Peserta Ujian mempunyai kesempatan sebanyak dua kali login ke dalam sistem ujian dan tidak ada penambahan waktu ujian. </string>
+</resources>
